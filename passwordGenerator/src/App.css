@@ -1,0 +1,23 @@
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.option label {
+  margin-right: 5px;
+}
+
+.length-range {
+  width: 100px; /* Adjust width as needed */
+  padding: 5px;
+}
+
+.length-value {
+  margin-left: 5px;
+}

@@ -1,0 +1,62 @@
+.password-generator {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .password-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .password-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #eee;
+    color: #333;
+  }
+  
+  .copy-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .option label {
+    margin-right: 5px;
+  }
+  
+  .length-range {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .length-value {
+    margin-left: 5px;
+  }
